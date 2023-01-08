@@ -16,7 +16,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       homepage
-      <Image src="/public/logo/pizza.png" alt='pizza logo' width={50} height={50}/>
     </>
   )
 }
