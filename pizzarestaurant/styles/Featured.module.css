@@ -1,0 +1,26 @@
+.container {
+    height: calc(100vh - 100px);
+    background-color: #abc918;
+}
+
+.arrowContainer {
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor:pointer;
+}
+
+.wrapper {
+    width: 300vw;
+    height: 100%;
+    display: flex;
+}
+
+.imgContainer {
+    width: 100vw;
+    height: 100%;
+    position: relative;
+}
