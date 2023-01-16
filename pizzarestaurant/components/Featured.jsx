@@ -15,12 +15,9 @@ export default function Featured() {
             </div>
             
             <div className={styles.wrapper}>
-                {images.map((img, i) => {
-                    <div className={styles.imgContainer} key={i}>
-                        <Image src={img} alt='featured pizza' fill/>
-                    </div>
-                })}
-                <Image src='/img/featured1.png' alt='featured pizza'  fill/>
+                <div className={styles.imgContainer}>
+                    {/* <Image src={images[0]} alt='featured pizza' fill/> */}
+                </div>
             </div>
             
             <div className={styles.arrowContainer} style={{right: 0}}>
