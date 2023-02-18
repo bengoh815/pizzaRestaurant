@@ -29,7 +29,7 @@ export default function Featured() {
             <div className={styles.wrapper} style={{transform: `translateX(${-100 * index}vw)`}}>
                 {images.map((img, i) => (
                     <div className={styles.imgContainer} key={i}>
-                        <Image src={img} alt='featured pizza' fill objectFit='contain'/>
+                        <Image src={img} alt='featured pizza' fill style={{objectFit:"contain"}}/>
                     </div>
                 ))}
             </div>
