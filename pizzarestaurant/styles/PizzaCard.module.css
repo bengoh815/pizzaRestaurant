@@ -25,3 +25,8 @@
     color: #777;
 }
 
+.imageContainer {
+    width: 20vw;
+    height: 30vw;
+    position: relative;
+}
