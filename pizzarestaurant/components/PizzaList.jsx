@@ -1,7 +1,7 @@
-import styles from '../styles/Product.module.css';
+import styles from '../styles/PizzaList.module.css';
 import PizzaCard from './PizzaCard';
 
-export default function Product() {
+export default function PizzaList() {
     return (
         <div className={styles.container}>
             <h1 className={styles.title}>THE BEST PIZZA IN THE MULTIVERSE</h1>

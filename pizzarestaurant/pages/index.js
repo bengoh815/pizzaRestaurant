@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Featured from '../components/Featured'
-import Product from '../components/Product'
+import PizzaList from '../components/PizzaList'
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Featured/>
-      <Product/>
+      <PizzaList/>
     </>
   )
 }
