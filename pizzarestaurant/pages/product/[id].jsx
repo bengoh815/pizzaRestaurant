@@ -1,7 +1,9 @@
 import styles from '../../styles/Product.module.css'
 import Image from 'next/image'
+import { useState } from 'react';
 
 export default function Product() {
+    const [size, setSize] = useState(0);
     const pizza = {
         id: 1,
         img: '/img/pizza.png',
@@ -13,12 +15,15 @@ export default function Product() {
     return (
         <div className={styles.container}>
             <div className={styles.left}>
-                <div className={styles.imageContainer}>
+                <div className={styles.imgContainer}>
                     <Image src={pizza.img} alt={pizza.name} fill style={{objectFit:'contain'}}/>
                 </div>
             </div>
             <div className={styles.right}>
-
+                <h1 className={styles.title}>{pizza.name}</h1>
+                <span className={styles.price}>${pizza.price[size]}</span>
+                <p className={styles.desc}>{pizza.desc}</p>
+                <h3 className={styles.choose}>Choose your size</h3>
             </div>
         </div>
     )
