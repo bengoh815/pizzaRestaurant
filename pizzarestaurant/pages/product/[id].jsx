@@ -24,6 +24,20 @@ export default function Product() {
                 <span className={styles.price}>${pizza.price[size]}</span>
                 <p className={styles.desc}>{pizza.desc}</p>
                 <h3 className={styles.choose}>Choose your size</h3>
+                <div className={styles.sizes}>
+                    <div className={styles.size}>
+                        <Image src="/img/size.png" alt="" fill/>
+                        <span className={styles.number}>Small</span>
+                    </div>
+                    <div className={styles.size}>
+                        <Image src="/img/size.png" alt="" fill/>
+                        <span className={styles.number}>Medium</span>
+                    </div>
+                    <div className={styles.size}>
+                        <Image src="/img/size.png" alt="" fill/>
+                        <span className={styles.number}>Large</span>
+                    </div>
+                </div>
             </div>
         </div>
     )
