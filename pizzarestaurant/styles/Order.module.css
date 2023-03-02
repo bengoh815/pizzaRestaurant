@@ -1,0 +1,55 @@
+.container {
+    padding: 50px;
+    display: flex;
+}
+
+.left {
+    flex: 2;
+}
+
+.table {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.row:last-child {
+    display: flex;
+    justify-content: space-around;
+}
+
+.status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right {
+    flex: 1;
+}
+
+.wrapper {
+    width: 80%;
+    max-height: 300px;
+    background-color: #333;
+    padding: 50px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.totalTextTitle {
+    font-size: large;
+    margin-right: 10px;
+}
+
+.button {
+    background-color: white;
+    height: 30px;
+    color: teal;
+    font-weight: bold;
+    cursor: not-allowed;
+    margin-top: 20px;
+}
