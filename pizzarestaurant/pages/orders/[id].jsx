@@ -33,31 +33,31 @@ export default function() {
                 </div>
                 <div className={styles.row}>
                     <div className={styles.status}>
-                        <Image src="" alt=""/>
+                        <Image src="/img/paid.png" alt="" height={30} width={30}/>
                         <span>Payment</span>
                         <div className={styles.checkedIcon}>
-                            <Image src="" alt=""/>
+                            <Image src="/img/checked.png" alt="checked image" height={20} width={20}/>
                         </div>
                     </div>
                     <div className={styles.status}>
-                        <Image src="" alt=""/>
+                        <Image src="/img/bake.png" alt="" height={30} width={30}/>
                         <span>Cooking</span>
                         <div className={styles.checkedIcon}>
-                            <Image src="" alt=""/>
+                            <Image src="/img/checked.png" alt="checked image" height={20} width={20}/>
                         </div>
                     </div>
                     <div className={styles.status}>
-                        <Image src="" alt=""/>
+                        <Image src="/img/bike.png" alt="" height={30} width={30}/>
                         <span>Delivering</span>
                         <div className={styles.checkedIcon}>
-                            <Image src="" alt=""/>
+                            <Image src="/img/checked.png" alt="checked image" height={20} width={20}/>
                         </div>
                     </div>
                     <div className={styles.status}>
-                        <Image src="" alt=""/>
+                        <Image src="/img/delivered.png" alt="" height={30} width={30}/>
                         <span>Delivered</span>
                         <div className={styles.checkedIcon}>
-                            <Image src="" alt=""/>
+                            <Image src="/img/checked.png" alt="checked image" height={20} width={20}/>
                         </div>
                     </div>
                 </div>
