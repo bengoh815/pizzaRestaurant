@@ -2,7 +2,7 @@ import styles from '../../styles/Order.module.css'
 import Image from 'next/image'
 
 export default function() {
-    const status = 0;
+    const status = 1;
 
     const statusClass = (index) => {
         if (index - status < 1) return styles.done
@@ -44,28 +44,28 @@ export default function() {
                         <Image src="/img/paid.png" alt="" height={30} width={30}/>
                         <span>Payment</span>
                         <div className={styles.checkedIcon}>
-                            <Image src="/img/checked.png" alt="checked image" height={20} width={20}/>
+                            <Image className={styles.checkedIcon} src="/img/checked.png" alt="checked image" height={20} width={20}/>
                         </div>
                     </div>
                     <div className={statusClass(1)}>
                         <Image src="/img/bake.png" alt="" height={30} width={30}/>
                         <span>Cooking</span>
                         <div className={styles.checkedIcon}>
-                            <Image src="/img/checked.png" alt="checked image" height={20} width={20}/>
+                            <Image className={styles.checkedIcon} src="/img/checked.png" alt="checked image" height={20} width={20}/>
                         </div>
                     </div>
                     <div className={statusClass(2)}>
                         <Image src="/img/bike.png" alt="" height={30} width={30}/>
                         <span>Delivering</span>
                         <div className={styles.checkedIcon}>
-                            <Image src="/img/checked.png" alt="checked image" height={20} width={20}/>
+                            <Image className={styles.checkedIcon} src="/img/checked.png" alt="checked image" height={20} width={20}/>
                         </div>
                     </div>
                     <div className={statusClass(3)}>
                         <Image src="/img/delivered.png" alt="" height={30} width={30}/>
                         <span>Delivered</span>
                         <div className={styles.checkedIcon}>
-                            <Image src="/img/checked.png" alt="checked image" height={20} width={20}/>
+                            <Image className={styles.checkedIcon} src="/img/checked.png" alt="checked image" height={20} width={20}/>
                         </div>
                     </div>
                 </div>
