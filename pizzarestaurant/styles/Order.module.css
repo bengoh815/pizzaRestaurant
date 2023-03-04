@@ -46,7 +46,7 @@
     display: none;
 }
 
-.unDone {
+.undone {
     display: flex;
     flex-direction: column;
     align-items: center;
