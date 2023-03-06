@@ -2,7 +2,7 @@ import styles from '../../styles/Order.module.css'
 import Image from 'next/image'
 
 export default function() {
-    const status = 0;
+    const status = 3;
 
     const statusClass = (index) => {
         if (index - status < 1) return styles.done
