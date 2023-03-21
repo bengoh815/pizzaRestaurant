@@ -32,3 +32,7 @@
 .motto {
     color: rgb(211, 211, 211);
 }
+
+@media screen and (max-width: 480px) {
+    
+}
